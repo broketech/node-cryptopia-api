@@ -1,0 +1,33 @@
+{
+  "name": "node-cryptopia-api",
+  "version": "0.0.7",
+  "description": "Node.js wrapper for Cryptopia API endpoints",
+  "main": "scratch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broketech/node-cryptopia-api.git"
+  },
+  "keywords": [
+    "cryptopia",
+    "exchange",
+    "api",
+    "public",
+    "private",
+    "altcoin",
+    "cryptocurrency"
+  ],
+  "author": "broketech",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/broketech/node-cryptopia-api/issues"
+  },
+  "homepage": "https://github.com/broketech/node-cryptopia-api#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  }
+}
