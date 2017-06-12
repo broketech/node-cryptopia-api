@@ -2,8 +2,8 @@ const base_url = 'https://www.cryptopia.co.nz/api';
 var md5sum = require('crypto-js/md5');
 var sha256hmac = ('crypto-js/hmac-sha256');
 
-var api_key = 'a92f71804f104275a948592f0a3f1535';
-var api_secret = 'K/ZGt+SS4E7VKDo+falJjqAbK0b7CuqkerovADu8Lis=';
+var api_key = 'KEY';
+var api_secret = 'SECRET';
 
 var request = require('request');
 var qstring = require('querystring');
