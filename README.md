@@ -7,7 +7,7 @@ Setup:
 npm install --save request crypto-js querystring
 
 #### Public Calls:
-#####Add file require to your code:
+##### Add file require to your code:
 ```javascript
 var cryp = require('./node.cryptopia.js');
 
@@ -16,7 +16,7 @@ cryp.GetMarket(100, 6, function(data){
   console.log(data.Data.AskPrice.toFixed(8))  
 })
 ```
-##### output:
+##### Output:
 ```
 { TradePairId: 100,
   Label: 'DOT/BTC',
