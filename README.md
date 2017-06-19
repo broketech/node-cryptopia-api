@@ -39,3 +39,15 @@ cryp.GetMarket(100, 6, function(data){
 
 ##### Private calls:
 Private calls will be something, i tell ya.
+
+##### Example Key file
+To use private calls first setup a private key file:
+```
+module.exports.tester = {
+    api_key: 'api_key',
+    api_secret: 'api_secret'
+}
+```
+Name your key file, then please be very sure to add your key file name to
+your dot gitignore for your project.  Pushing private keys is a very common
+mistake.

@@ -1,5 +1,7 @@
 const base_url = 'https://www.cryptopia.co.nz/api';
-const cryptopia_keys = require('./.api_keys.json');
+const api = require('./.api_keys.js');
+const api_key = api.tester.api_key;
+const api_secret = api.tester.api_secret;
 var md5sum = require('crypto-js/md5');
 var sha256hmac = ('crypto-js/hmac-sha256');
 
